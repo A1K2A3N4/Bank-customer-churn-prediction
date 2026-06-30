@@ -176,6 +176,7 @@ prediction_results = pd.DataFrame({
 print("Prediction output (first 10 rows):")
 print(prediction_results.head(10))
 
+
 prediction_results.to_csv("churn_predictions.csv", index=False)
 print("Saved churn_predictions.csv")
 
